@@ -7,9 +7,14 @@
 # ignore eclipse config
 *.project
 *.classpath
-*.settings
+*.settings/
 *.metadata
 *.launch
+
+# ignore intellij config
+*.idea/
+*.iml
+*.iws
 
 *.springBeans
 *.checkstyle

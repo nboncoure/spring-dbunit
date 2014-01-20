@@ -1,4 +1,4 @@
-# spring-dbuint 1.0.0
+# spring-dbuint 2.0.0
 
 ## Overview
 
@@ -38,3 +38,9 @@ Add the dataset in your context definition (test-context.xml)
 			p:location="classpath:datasets/foo-dataset.xml" />
 		...
 	</beans>
+
+## Changes logs
+
+### 2.0.0
+
+Usable with version 4 of Spring.

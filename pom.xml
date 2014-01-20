@@ -4,7 +4,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.nboncoure</groupId>
 	<artifactId>spring-dbunit</artifactId>
-	<version>1.0.0</version>
+	<version>2.0.0</version>
 	<name>Spring DBUnit integration.</name>
 	<description>Test facilities for DBUnit.</description>
 
@@ -12,7 +12,7 @@
 		<jdkLevel>1.7</jdkLevel>
 		<project.build.sourceEncoding>utf-8</project.build.sourceEncoding>
 
-		<spring.framework.version>3.2.3.RELEASE</spring.framework.version>
+		<spring.framework.version>4.0.0.RELEASE</spring.framework.version>
 		<junit.version>4.10</junit.version>
 		<dbunit.version>2.4.8</dbunit.version>
 
@@ -68,22 +68,7 @@
 		</dependency>
 		<dependency>
 			<groupId>org.slf4j</groupId>
-			<artifactId>slf4j-log4j12</artifactId>
-			<version>${slf4j.version}</version>
-		</dependency>
-		<dependency>
-			<groupId>org.slf4j</groupId>
 			<artifactId>slf4j-api</artifactId>
-			<version>${slf4j.version}</version>
-		</dependency>
-		<dependency>
-			<groupId>org.slf4j</groupId>
-			<artifactId>log4j-over-slf4j</artifactId>
-			<version>${slf4j.version}</version>
-		</dependency>
-		<dependency>
-			<groupId>org.slf4j</groupId>
-			<artifactId>jcl-over-slf4j</artifactId>
 			<version>${slf4j.version}</version>
 		</dependency>
 
